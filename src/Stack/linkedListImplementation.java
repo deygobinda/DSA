@@ -76,5 +76,6 @@ public class linkedListImplementation {
         st.push(6);
         st.display();
         System.out.println("The size is " +st.size);
+        st.displayReverse();
     }
 }
