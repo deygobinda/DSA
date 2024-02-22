@@ -22,7 +22,7 @@ public class linkListImplementation {
 
         private void insert(int data) {
             Node temp = new Node(data);
-            if (front == null && rear == null) {
+            if (size == 0) {
                 front = rear = temp;
             } else {
                 rear.next = temp;
@@ -32,7 +32,7 @@ public class linkListImplementation {
         }
 
         private int delete() {
-            if (front == null) {
+            if (size == 0) {
                 System.out.println("The queue is empty");
                 return -1;
             } else {
