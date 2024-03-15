@@ -9,12 +9,12 @@ public class dequeSTL {
         Deque<Integer> dq = new ArrayDeque<>();
         Deque<Integer> dql = new LinkedList<>();// bot array and linkedList work like same
 
-        // If we use the same functions as Queue Deque will work like queue
-//        dq.add(1);//1
-//        dq.add(2);//1 2
-//        dq.add(3);//1 2 3
-//        dq.poll();//2 3
-//        System.out.println(dq.peek());
+//         If we use the same functions as Queue Deque will work like queue
+        dq.add(1);//1
+        dq.add(2);//1 2
+        dq.add(3);//1 2 3
+        dq.poll();//2 3
+        System.out.println(dq.peek());
 
 
         // Deque operations
