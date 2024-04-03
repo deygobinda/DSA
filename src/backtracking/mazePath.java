@@ -15,8 +15,8 @@ public class mazePath {
             System.out.println(s);
             return;
         }
-        path(sr+1,sc,er,ec,s+"R");
-        path(sr,sc+1,er,ec,s+"D");
+        path(sr+1,sc,er,ec,s+"D");
+        path(sr,sc+1,er,ec,s+"R");
 
     }
 }

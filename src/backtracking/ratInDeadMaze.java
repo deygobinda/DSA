@@ -9,7 +9,6 @@ public class ratInDeadMaze {
                 {1,0,1,1},
                 {1,1,1,1},
                 {1,1,0,1}};
-
         path(0,0,rows-1,cols-1,"",maze);
     }
     private static void path(int sr, int sc, int er, int ec, String s, int[][] maze) {
