@@ -82,6 +82,8 @@ public class sizeSumHeight {
         printNthLevel(root.left,n-1);
         printNthLevel(root.right,n-1);
     }
+
+
     public static void main(String[] args) {
         Node a = new Node(1);
         Node b = new Node(2);
@@ -97,14 +99,14 @@ public class sizeSumHeight {
         Node g = new Node(7);
         c.left = f;
         c.right = g;
-//        levelOrder(a);
-//        System.out.println();
-//        System.out.println(size(a));
-//        System.out.println(sumOfTreeNodes(a));
-//        System.out.println(maxNode(a));
-//        System.out.println(heightOfTree(a));
-//        System.out.println(minNode(a));
-//        System.out.println(productOfNodes(a));
+        levelOrder(a);
+        System.out.println();
+        System.out.println(size(a));
+        System.out.println(sumOfTreeNodes(a));
+        System.out.println(maxNode(a));
+        System.out.println(heightOfTree(a));
+        System.out.println(minNode(a));
+        System.out.println(productOfNodes(a));
 
         for (int i = 1 ; i <= heightOfTree(a)+1; i++){
             printNthLevel(a,i);
